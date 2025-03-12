@@ -3,34 +3,10 @@
     "name": "invergordon-bar-app",
     "slug": "invergordon-bar-app",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#25245b"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.invergordon.barapp",
-      "newArchEnabled": true
-    },
-    "android": {
-      "package": "com.invergordon.barapp",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#25245b"
-      },
-      "newArchEnabled": true,
-      "googleServicesFile": "./android/app/google-services.json"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
       "eas": {
         "projectId": "f3fe51e4-ce89-4ecb-a037-6caaaaa09435"
